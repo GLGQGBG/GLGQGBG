@@ -1251,12 +1251,13 @@ pre .javascript .function {
 .posts-expand {
   padding-top: 40px;
 }
+
+  .post-body pre {
+    padding: 10px;
+  }
 @media (max-width: 767px) {
   .posts-expand {
     margin: 0 20px;
-  }
-  .post-body pre {
-    padding: 10px;
   }
   .post-body pre .gutter pre {
     padding-right: 10px;
